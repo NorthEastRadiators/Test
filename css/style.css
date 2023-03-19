@@ -402,7 +402,7 @@ header{
 	height:auto;
 	overflow: auto;
 	position: absolute;
-	top: 45%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
@@ -513,6 +513,107 @@ header{
 
 /* [END] ABOUT - TEXT */
 
+
+
+/* [START] SERVICES - THUMBNAILS */
+
+.services-thumbnails{
+	width: 100%;
+	height: 1500px;
+	text-align: center;
+	margin: 50px 0;
+}
+
+
+.services-thumbs{
+	height: 400px;
+	width: 42.5%;
+	background-color: black;
+	border-radius: 40px;
+}
+
+.services-thumbsLeft{
+	float: left;
+	margin: 50px 2.5% 50px 5%;
+}
+
+.services-thumbsRight{
+	float: left;
+	margin: 50px 5% 50px 2.5%;
+
+}
+
+.radiators{
+	background-image: url("../img/services/radiator.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.FuelTanks{
+	background-image: url("../img/services/fueltank.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.OilCoolers{
+	background-image: url("../img/services/oilcooler.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.InterCoolers{
+	background-image: url("../img/services/intercooler.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.HeatExchangers{
+	background-image: url("../img/services/heat_exchanger.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.HeatingBatteries{
+	background-image: url("../img/services/heating battery.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.services-details{
+	width: auto;
+	height:auto;
+	overflow: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 20px;
+	padding: 25px 60px;
+	font-size: 28px;
+	color: #004aad;
+}
+
+.servicesButtons{
+	background-color: #38b6ff;
+	margin: 20px 0 0;
+}
+
+
+/* [END] SERVICES - THUMBNAILS */
 
 
 
