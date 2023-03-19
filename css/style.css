@@ -3,7 +3,11 @@
 
 *{
 	margin: 0;
+	font-family: Giodle, sans-serif;
 }
+
+
+/* [START] ALL PAGES - HEADER */
 
 #header{
 	width: 100%;
@@ -74,15 +78,120 @@
 	color: #004aad;
 }
 
+/* [END] ALL PAGES - HEADER */
+
+
+/* [START] ALL PAGES - ESTIMATES */
+
+.estimates{
+	background-color: #004aad;
+	height: 120px;
+	color: #ffffff;
+}
+
+.estimatesBanner{
+	margin: 0 15%;
+}
+
+.estimatesMessage{
+	font-size: 35px;
+	width: 50%;
+	padding: 40px 0;
+	float: left;
+}
+
+.estimatesContact{
+	float: left;
+	width: 50%;
+	padding: 40px 0 0 0;
+	text-align: right;
+}
+
+.estimatesButton{
+	background-color: #38b6ff;
+	
+}
+
+
+/* [END] ALL PAGES - ESTIMATES */
+
+
+/* [START] ALL PAGES - Footer */
+
+.Footer{
+	background-color: #38b6ff;
+	margin: 40px 0 0 0;
+	width: 100%;
+	height: 200px;
+	padding: 40px 0 0 0;
+	color: white;
+}
+
+.Footer-Left{
+	text-align: left;
+	height: auto;
+	float: left;
+	margin: 0 0 0 100px;
+}
+
+.Footer-Right{
+	text-align: right;
+	height: auto;
+	float: right;
+	margin: 0 100px 0 0;
+}
+
+.Footer-Title{
+	padding: 0 0 10px;
+}
+
+.Footer-Contact{
+	padding: 0 0 8px;
+	font-size: 18px;
+}
+
+.Footer-Description{
+	font-size: 18px;
+}
+
+.Footer-Icons{
+	padding: 20px 0 0 0;
+}
+
+.Footer-SocialMedia{
+	width: 50px;
+}
+
+
+/* [END] ALL PAGES - Footer */
+
+
+
+/* [START] ALL PAGES - GENERAL */
+
+.button{
+	height: 45px;
+	width: 170px;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+
+/* [START] HOME - HERO */
+
+
 .home-Hero{
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
 	background-image: url("../img/services/heat_exchanger.jpeg");
 	color: #004aad;
+	overflow: inherit;
 }
 
 .home-HeroText{
-	width:25%;
+	width: auto;
 	height:auto;
 	overflow: auto;
 	position: absolute;
@@ -92,8 +201,35 @@
 	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
 	border-radius: 20px;
-	padding: 1%;
+	padding: 25px 60px;
 }
+
+/* [END] HOME - HERO */
+
+
+/* [START] HOME - ABOUT */
+
+.home-About{
+	margin: 50px 100px 0;
+	text-align: center;
+}
+
+.home-AboutText{
+	padding: 0 10%;
+	color: #38b6ff;
+	font-size: 20px;
+}
+
+.home-AboutButton{
+	background-color: #004aad;
+	margin: 30px 0;
+}
+
+
+/* [END] HOME - ABOUT */
+
+
+
 
 
 
