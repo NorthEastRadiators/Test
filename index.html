@@ -6,33 +6,42 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>North East Radiators</title>
 <link rel="icon" type="image/xicon" href="img/all_pages/Icon.png">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 	
   <!-- ======= Header ======= -->
-	<header id="header">
-		<div class="header">
-			<div class="head-left">
-				<a href="index.html" class="logo"><img src="img/all_pages/Logo.png" alt="" class="img-logo"></a>
-			</div>
+	<header>
 			
-			<div class="head-right">
-				<nav id="navbar" class="navbar">
-					<ul>
-						<li><a class="head_links" href="index.html">Home</a></li>
-						<li><a class="head_links" href="about.html">About Us</a></li>
-						<li><a class="head_links" href="">Our Services</a></li>
-						<li><a class="head_links" href="">Contact Us</a></li>
-					</ul>
-				
-				</nav><!-- .navbar -->
-			</div>
+				<div class="logo">
+					<a href="index.html"><img class="logo1" alt="Yula Logo" src="img/all_pages/Logo.png"></a>
+				</div>
+			
 
-		</div>
-		
-	</header><!-- End Header -->	
+			
+			<div class="topnav" id="myTopnav">
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+				<a class="link heading" href="#hero">Home</a>
+				<a class="heading" href="#about">About Us</a>
+				<a class="heading" href="#why">Our Services</a>
+				<a class="heading" href="#events">Contact Us</a>
+				
+				
+			</div>
+		</header>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+<!-- End Header -->	
 	
 	
 	<!-- ======= Hero ======= -->
