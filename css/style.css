@@ -82,6 +82,7 @@
 /* [END] ALL PAGES - HEADER */
 
 
+
 /* [START] ALL PAGES - ESTIMATES */
 
 .estimates{
@@ -115,6 +116,7 @@
 
  
 /* [END] ALL PAGES - ESTIMATES */
+
 
 
 /* [START] ALL PAGES - Footer */
@@ -180,6 +182,10 @@
 }
 
 
+/* [END] ALL PAGES - GENERAL */
+
+
+
 /* [START] HOME - HERO */
 
 
@@ -188,7 +194,10 @@
 	width: 100%;
 	background-image: url("../img/services/heat_exchanger.jpeg");
 	color: #004aad;
-	overflow: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
 
 .home-HeroText{
@@ -216,6 +225,7 @@
 /* [END] HOME - HERO */
 
 
+
 /* [START] HOME - ABOUT */
 
 .home-About{
@@ -236,6 +246,7 @@
 
 
 /* [END] HOME - ABOUT */
+
 
 
 /* [START] ABOUT - TEXT */
