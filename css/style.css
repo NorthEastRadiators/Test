@@ -335,6 +335,31 @@
 	font-size: 35px;
 }
 
+
+@media (max-width:1050px){
+	.home-HeroText{
+	}
+
+	.home-HeroHeading{
+		font-size: 30px;
+	}
+
+	.home-HeroSubHeading{
+		font-size: 25px;
+	}
+
+}
+
+@media (max-width:900px){
+	.home-HeroText{
+		width: 100%;
+		border-radius: 0;
+		padding: 25px 0;
+	}
+
+}
+
+
 /* [END] HOME - HERO */
 
 
@@ -356,6 +381,26 @@
 	background-color: #004aad;
 	margin: 30px 0;
 }
+
+
+@media (max-width:1000px){
+	.home-About{
+		margin: 50px 50px 0;
+	}
+
+	.home-AboutText{
+		padding: 0;
+		color: #38b6ff;
+		font-size: 20px;
+	}
+
+	.home-AboutButton{
+		background-color: #004aad;
+		margin: 30px 0;
+	}
+
+}
+
 
 
 /* [END] HOME - ABOUT */
