@@ -58,6 +58,7 @@
 }
 
 .navbar a, .navbar a:focus {
+	text-decoration: none;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -195,13 +196,21 @@
 	height:auto;
 	overflow: auto;
 	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
 	background-color: rgba(255,255,255, 0.7);
 	border-radius: 20px;
 	padding: 25px 60px;
+}
+
+.home-HeroHeading{
+	font-size: 40px;
+}
+
+.home-HeroSubHeading{
+	font-size: 35px;
 }
 
 /* [END] HOME - HERO */
@@ -227,6 +236,29 @@
 
 
 /* [END] HOME - ABOUT */
+
+
+/* [START] ABOUT - TEXT */
+
+.about-section{
+	margin: 50px 100px 0;
+	text-align: center;
+
+}
+
+.about-text{
+	padding: 0 10% 50px;
+	color: #38b6ff;
+	font-size: 20px;
+	
+}
+
+.aboutText{
+	padding: 10px 0;
+}
+
+
+/* [END] ABOUT - TEXT */
 
 
 
