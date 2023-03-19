@@ -97,14 +97,14 @@
 
 .estimatesMessage{
 	font-size: 35px;
-	width: 50%;
+	width: 70%;
 	padding: 40px 0;
 	float: left;
 }
 
 .estimatesContact{
 	float: left;
-	width: 50%;
+	width: 30%;
 	padding: 40px 0 0 0;
 	text-align: right;
 }
@@ -112,6 +112,73 @@
 .estimatesButton{
 	background-color: #38b6ff;
 	
+}
+
+
+@media (max-width:1300px){
+
+
+	.estimatesBanner{
+		margin: 0 100px;
+	}
+}
+
+@media (max-width:1085px){
+
+	.estimatesMessage{
+		font-size: 28px;
+		padding: 45px 0;
+
+	}
+
+}
+
+@media (max-width:930px){
+
+	.estimates{
+		height: 160px;
+		text-align: center;
+	}
+
+	.estimatesMessage{
+		width: 100%;
+		padding: 30px 0 0 0;
+	}
+
+	.estimatesContact{
+		width: 100%;
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+
+}
+
+@media (max-width:700px){
+
+	.estimates{
+		height: 200px;
+	}
+
+	.estimatesBanner{
+		margin: 0 180px;
+	}
+
+}
+
+@media (max-width:610px){
+
+	.estimatesBanner{
+		margin: 0 100px;
+	}
+
+}
+
+@media (max-width:450px){
+
+	.estimatesBanner{
+		margin: 0 40px;
+	}
+
 }
 
  
@@ -164,6 +231,52 @@
 .Footer-SocialMedia{
 	width: 50px;
 }
+
+
+@media (max-width:800px){
+	.Footer{
+		margin: 40px 0 0 0;
+		height: 350px;
+		padding: 0;
+	}
+
+	.Footer-Left{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.Footer-Right{
+		width: 100%;
+		text-align: center;
+		height: auto;
+		float: left;
+		margin: 0 100px 0 0;
+	}
+
+	.Footer-Title{
+		padding: 30px 0 10px;
+	}
+
+	.Footer-Contact{
+		padding: 0 0 8px;
+		font-size: 18px;
+	}
+
+	.Footer-Description{
+		font-size: 18px;
+	}
+
+	.Footer-Icons{
+		padding: 20px 0 0 0;
+	}
+
+	.Footer-SocialMedia{
+		width: 50px;
+	}
+
+}
+
 
 
 /* [END] ALL PAGES - Footer */
