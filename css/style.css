@@ -625,7 +625,7 @@ header{
 
 .thumbImg{
 	width: 100%;
-	height: 40vh;
+	height: 300px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -672,7 +672,7 @@ h4{
   margin: auto;
   padding:20px;
   width: 80%;
-	height: 65vh;
+  height: 400px;;
 }
 
 .modal-text{
@@ -685,6 +685,7 @@ h4{
   float: right;
   font-size: 50px;
   font-weight: bold;
+  padding: 0 20px 0 0;
 }
 
 .close:hover,
@@ -705,83 +706,47 @@ h4{
 	width: 35%;
 	height: 230px;
 	float: right;
-	padding: 15vh 10% 0;
+	padding: 110px 10% 0;
 }
 
-
-@media (max-width: 1500px){
+@media (max-width: 850px){
 	.ModalLeft{
-		width: 40%;
-		height: 230px;
-		padding: 0 0 0 3%;
-	}
-
-	.ModalRight{
-		width: 45%;
-		height: 230px;
-		padding: 10vh 5% 0;
-	}
-
-	.modal-content {
-		height: 62vh;
-	}
-
-}
-
-@media (max-width: 1200px){
-	.ModalLeft{
-		width: 45%;
-		height: 230px;
-		padding: 0 0 0 5%;
-	}
-
-	.ModalRight{
-		width: 40%;
-		height: 230px;
-		padding: 10vh 5% 0;
-	}
-
-	.modal-content {
-		height: 57vh;
+		width: 90%;
+		float: left;
+		height: 300px;
+		text-align: center;
+		padding: 20px 5%;
 	}
 	
 	.modal-text{
 		font-size: 18px;
 	}
-}
 
-
-@media (max-width: 900px){
-
-	.modal-content {
-		height: 51vh;
-	}
-	
-}
-
-@media (max-width: 800px){
-
-	.modal-content {
-		height: 70vh;
-        padding: 0;
-		text-align: center;
-
-	}
-	
-	.ModalLeft{
-		width: 90%;
-		height: 230px;
-		padding: 0 5%;
-		text-align: center;
-	}
 
 	.ModalRight{
 		width: 90%;
-		height: auto;
+		height: 50px;
+		float: right;
 		padding: 0 5% 20px;
-		float: left;
 	}
 
+	.modal-content {
+	  height: 500px;
+	}
+	
+}
+
+@media (max-width: 550px){
+	.ModalRight{
+		width: 90%;
+		height: 70px;
+		float: right;
+		padding: 0 5% 20px;
+	}
+
+	.modal-content {
+	  height: 530px;
+	}
 	
 }
 
