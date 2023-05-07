@@ -19,6 +19,7 @@ header{
 	top: 0;
 	height: 60px;
 	background-color: #38b6ff;
+
 }
 
 .header-main-section{
@@ -37,6 +38,10 @@ header{
 	color: white;
 	font-size: 20px;
 	padding: 0 0 0 20px;
+}
+
+a:hover{
+  color: #004aad;
 }
 
 .header-links-main{
@@ -347,7 +352,7 @@ header{
 .home-Hero{
 	height: 80vh;
 	width: 100%;
-	background-image: url("../img/services/heat_exchanger.jpeg");
+	background-image: url("../img/services/radiator.jpeg");
 	color: #004aad;
 	background-position: center;
 	background-repeat: no-repeat;
