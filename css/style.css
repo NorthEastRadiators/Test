@@ -258,6 +258,8 @@ header{
 .Footer-Contact{
 	padding: 0 0 8px;
 	font-size: 18px;
+	text-decoration: none;
+	color: white;
 }
 
 .Footer-Description{
