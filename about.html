@@ -14,36 +14,58 @@
 <body>
 	
   <!-- ======= Header ======= -->
-		<header>
-			
-				<div class="logo">
-					<a href="index.html"><img class="logo1" alt="North East Radiators Logo" src="img/all_pages/Logo.png"></a>
+	<header>
+		
+		<div class="header-main">
+			<div class="header-main-section">
+				<a href="index.html"><img src="img/all_pages/Logo.png" alt="Logo" class="logo-main"></a>
+
+				<div class="header-links-main">
+					<a class="heading-main" href="index.html">Home</a>
+					<a class="heading-main" href="about.html">About Us</a>
+					<a class="heading-main" href="services.html">Our Services</a>
+					<a class="heading-main" href="contact.html">Contact Us</a>
 				</div>
-			
-
-			
-			<div class="topnav" id="myTopnav">
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-				<a class="link heading" href="index.html">Home</a>
-				<a class="heading" href="about.html">About Us</a>
-				<a class="heading" href="services.html">Our Services</a>
-				<a class="heading" href="contact.html">Contact Us</a>
-				
-				
 			</div>
-		</header>
+		</div>
+		
+		<div class="header-responsive">
+			<div class="header-response-section">
+				
+				
+				<div class="logo-responsive-section">
+					<img src="img/all_pages/Logo.png" alt="Logo" class="logo-responsive">
+					<span class="menu-button-responsive" style="font-size:30px;cursor:pointer; color: white; padding: 10px 20px 0 0;" onclick="openNav()">&#9776;</span>
 
-		<script>
-			function myFunction() {
-				var x = document.getElementById("myTopnav");
-				if (x.className === "topnav") {
-					x.className += " responsive";
-				} else {
-					x.className = "topnav";
-				}
-			}
-		</script>
-	<!-- End Header -->	
+				</div>
+				
+
+			</div>
+		
+		</div>
+		
+	</header>
+
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="about.html">About Us</a>
+	  <a href="services.html">Our Services</a>
+	  <a href="contact.html">Contact Us</a>
+	</div>
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+			<!-- End Header -->	
 	
 	
 	<!-- ======= Hero ======= -->
