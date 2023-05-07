@@ -22,6 +22,7 @@ header{
 	float: left;
 	text-align: center;
 	padding: 0 0 0 5%;
+	display: inline-block;
 }
 
 .logo1{
@@ -31,6 +32,7 @@ header{
 .topnav {
 	float: right;
 	padding: 0 5% 0 0;
+	display: inline-block;
 }
 
 .topnav a {
@@ -92,7 +94,7 @@ header{
 		text-align: left;
 	}
 	.topnav.responsive .link{
-		margin: 0;
+		margin: 70px 0 0 0;
 	}
 	
 	.heading{
@@ -512,6 +514,30 @@ header{
 	padding: 10px 0;
 }
 
+@media (max-width: 1100px){
+	.about-section{
+		margin: 50px 50px 0;
+	}
+	
+	.about-text{
+		padding: 0 5% 50px;
+	}
+
+}
+
+@media (max-width: 800px){
+	.about-section{
+		margin: 20px 0 0;
+	}
+	
+	.about-text{
+		padding: 0 5% 20px;
+	}
+
+}
+
+
+
 
 /* [END] ABOUT - TEXT */
 
@@ -523,7 +549,7 @@ header{
 	width: 100%;
 	height: 1500px;
 	text-align: center;
-	margin: 50px 0;
+	margin: 20px 0;
 }
 
 
@@ -615,6 +641,33 @@ header{
 }
 
 
+
+@media (max-width: 1000px){
+	.services-thumbs{
+		height: 300px;
+		width: 90%;
+	}
+
+	.services-thumbsLeft{
+		margin: 20px 5%;
+	}
+
+	.services-thumbsRight{
+		margin: 20px 5%;
+
+	}
+
+	.services-thumbnails{
+		height: 2050px;
+
+		margin: 20px 0;
+	}
+
+	
+}
+
+
+
 /* [END] SERVICES - THUMBNAILS */
 
 /* [START] CONCTACT - MAIN */
@@ -649,7 +702,7 @@ header{
 }
 
 .contact-links{
-	color: #38b6ff;
+	color: #004aad;
 	text-decoration: none;
 	font-size: 22px;
 	padding: 0 0 30px;
@@ -668,15 +721,16 @@ header{
 	height: 650px;
 	max-width:100%; 
 	max-height:100vh; 
+	overflow: hidden;
 }
 
 .contact-detail{
 	color: #38b6ff;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .contact-text{
-	padding: 30px 0 0;
+	padding: 130px 0 0;
 	height: auto;
 	width: 80%;
 	float: left;
@@ -719,6 +773,10 @@ header{
 
 		
 	}
+	
+	.contact-text{
+	padding: 30px 0 0;
+
 
 }
 
@@ -732,8 +790,9 @@ header{
 	}
 	
 	.contact-main{
-		height: 1150px;
+		height: 1200px;
 	}	
+	
 }
 
 
