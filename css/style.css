@@ -833,6 +833,7 @@ h4{
 	border-radius: 10px;
 	color: white;
 	font-size: 16px;
+	outline: none;
 }
 
 ::placeholder {
@@ -855,6 +856,7 @@ h4{
 	margin: 10px 10%;
 	color: white;
 	font-size: 16px;
+	outline: none;
 }
 
 .contact-message-text{
