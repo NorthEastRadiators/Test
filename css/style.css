@@ -936,7 +936,8 @@ h4{
 
 }
 
-
+}
+	
 @media (max-width:800px){
 	.contact-sections{
 		width: 90%;
@@ -958,12 +959,24 @@ h4{
 		padding: 60px 0 30px 0;
 	}
 	
-		.contact-main{
-		height: 1000px;
+	.contact-main{
+		height: 1050px;
 	}	
-}
+
+	.contact-temp{
+		margin: 10px 0%;
+	}
+
+	.contact-message{
+		margin: 10px 0%;
+	}
+	
 
 }
+
+
+
+
 
 
 
